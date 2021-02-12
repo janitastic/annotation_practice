@@ -4,7 +4,9 @@ function getSandwichInfo() {
   var sandwiches = ['Philly cheesesteak', 'Italian sub', 'Reuben', 'Bahn Mi', 'Nashville Hot Chicken', 'Caprese']
   // declares variable whatIsShift and assigns it the value at the 0 index
   var whatIsShift = sandwiches.shift()
+  
   var whatIsPop = sandwiches.pop()
+  // declares variable whatIsLength and assigns it to the character count of the sandwhiches array
   var whatIsLength = sandwiches.length
   var whatIsIndex = sandwiches[2]
 
